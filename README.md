@@ -1,4 +1,4 @@
-# Erebus: Implementation of Attack Search and Vulnerability Localization
+# Erebus-Redgiant: Implementation of Attack Search and Vulnerability Localization
 
 This repository offers `erebus`, which is the implementation of the search algorithm for historical front-running attacks in Ethereum history and vulnerability localization technique from each attack by extracting influence traces.
 
@@ -8,7 +8,7 @@ Details can be found in our paper.
 
 ## Only Executable before Acceptance
 
-The executable binary of `erebus` can be downloaded from the [Release](https://github.com/erebus-icse2023/tool/releases) page.
+The executable binary of `erebus` can be downloaded from the [Release](https://github.com/erebus-redgiant/tool/releases) page.
 
 We only provide our tool as executable binary files before our paper is accepted.
 There are several reasons.
@@ -40,7 +40,7 @@ Please refer to documentation of Erigon for instructions to sync Ethereum blockc
 
 ## Running to Collect Attacks and Analyze Vulnerabilities
 
-The executable binary of `erebus` can be downloaded from the [Release](https://github.com/erebus-icse2023/tool/releases) page.
+The executable binary of `erebus` can be downloaded from the [Release](https://github.com/erebus-redgiant/tool/releases) page.
 
 The help information can be found with command:
 ```bash
@@ -113,4 +113,4 @@ In addition, there are some other command line flags:
 - `--prefetch` specifies the number of blocks that that `erebus` will fetch in advance before the block is searched. This flag is meant to optimize the cache hit ratio in disk I/O.
 
 When the attack search and vulnerability localization finished,
-you will find the MongoDB is filled with a bunch of attacks in the same structure as described in our [benchmark](https://github.com/erebus-icse2023/benchmark) repository.
+you will find the MongoDB is filled with a bunch of attacks in the same structure as described in our [benchmark](https://github.com/erebus-redgiant/benchmark) repository.
